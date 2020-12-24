@@ -1,0 +1,77 @@
+
+
+
+
+
+
+
+<img src="calculator.gif">
+<br>
+<input id="radius" type="text" placeholder="원의반지름입력:">
+<button onClick ="Circle()"> clllllick </button>
+
+<br>
+<p id="outPut"></p>
+
+<script>
+function Circle()
+{
+
+	var pi=3.14
+
+	var r= document.querySelector("#radius").value
+
+	var result="";
+
+	
+
+	result += "==========<br>";
+
+	result += "원의넓이:";
+
+	result += (pi*r*r);
+
+	document.querySelector("#outPut").innerHTML=result
+
+	
+}
+	
+
+/*
+function myfunction(p1,p2)
+{
+	return p1*p2;
+}
+
+(myfunction(34,13)+"<br>")
+document.write(myfunction(44,14)+"<br>")
+document.write(myfunction(54,15)+"<br>")
+
+
+document.querySelector("#calImg").src="calculator.gif";
+document.write("<br>")
+
+var pi=3.14
+
+var r = prompt("반지름의 길이를 입력해주세요:");
+
+
+document.write("원의반지름:",r,"<br>");
+
+document.write("==========<br>");
+
+document.write("원의넓이:");
+
+document.write(pi*r*r)
+
+document.write("<br>")
+
+document.write("원주율:")
+
+document.write(2*pi*r)
+*/
+
+</script>
+
+
+
